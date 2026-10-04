@@ -1,0 +1,63 @@
+{
+  "BOTNAME": "Mirai-V3-Unofficial",
+  "PREFIX": "!",
+  "reactBy": {
+    "enable": true,
+    "unsend": [
+      "😡",
+      "🤬"
+    ],
+    "kick": []
+  },
+  "whiteListMode": {
+    "enable": false,
+    "whiteListIds": [
+      "61581197276223"
+    ],
+    "notes": "If enabled, only IDs in whiteListIds can use the bot."
+  },
+  "whiteListModeThread": {
+    "enable": false,
+    "whiteListThreadIds": [],
+    "notes": "If enabled, only threads in whiteListThreadIds can use the bot."
+  },
+  "dashBoard": {
+    "enable": false,
+    "port": 12001
+  },
+  "telegram": {
+    "enable": false,
+    "botToken": "",
+    "chatId": "",
+    "notes": "Get botToken from @BotFather, chatId from @userinfobot on Telegram"
+  },
+  "language": "en",
+  "ADMINBOT": [],
+  "NDH": [],
+  "FACEBOOK_ADMIN": "",
+  "BOXADMIN": "",
+  "DeveloperMode": false,
+  "autoCreateDB": true,
+  "allowInbox": true,
+  "commandDisabled": [],
+  "eventDisabled": [],
+  "menu": {
+    "autoUnsend": {
+      "status": true,
+      "timeOut": 60
+    }
+  },
+  "FCAOption": {
+    "autoMarkDelivery": false,
+    "autoReconnect": true,
+    "forceLogin": true,
+    "listenEvents": true,
+    "listenTyping": true,
+    "logLevel": "error",
+    "selfListen": true,
+    "selfListenEvent": true,
+    "updatePresence": true
+  },
+  "version": "3.0.0",
+  "adminIds": []
+}
